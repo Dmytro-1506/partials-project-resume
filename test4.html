@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScrollReveal Animation</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: 50px auto;
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <script>
+      ScrollReveal().reveal('.box', {
+        delay: 500,
+        duration: 1000,
+        origin: 'bottom',
+        distance: '50px',
+      });
+    </script>
+  </body>
+</html>
