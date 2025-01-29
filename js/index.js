@@ -17,3 +17,5 @@ function loadPartial(id, file) {
 
 // Load partials into placeholders
 loadPartial('header', './partials/header.html');
+loadPartial('about-me', './partials/about-me.html');
+loadPartial('footer', './partials/footer.html');

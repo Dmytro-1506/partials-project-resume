@@ -1,0 +1,32 @@
+.about-me {
+    padding: 100px 60px;
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff7d;
+    border-radius: 10px;
+    padding: 40px 20px;
+    gap: 20px;
+    transform: translate(-10%, -10%);
+    // animation: move 2s infinite alternate;
+}
+
+@keyframes move {
+    from {
+        transform: translate(-10%, -10%);
+    }
+    
+    to {
+        transform: translate(10px, 10px);
+    }
+}
+.about-me__photo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-box {}
+
+.about-me__title {}
